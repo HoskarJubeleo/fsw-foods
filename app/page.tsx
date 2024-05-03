@@ -54,7 +54,7 @@ const Home = async () => {
         <ProductList products={products}/>
       </div>
 
-      <div className="px- pt-6">
+      <div className="px-5 pt-6">
         <PromoBanner 
           src="/promo-banner-02.png" 
           alt="Apatir de 17,90 em lanches" 
