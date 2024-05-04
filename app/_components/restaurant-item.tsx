@@ -11,10 +11,12 @@ interface RestaurantItemProps {
 
 const RestaurantItem = ({ restaurant }: RestaurantItemProps) => {
   return (
-      <div className="w-full space-y-3">
+<div className="w-full space-y-3">
 
-        <div className="relative h-[136px] w-full">
-          <Image src={restaurant.imageUrl} fill className="rounded-lg object-cover" alt={restaurant.name} />
+        <div className="relative h-[136px] w-[250px]">
+          <Image
+            src={restaurant.imageUrl} fill className="rounded-lg object-cover" alt={restaurant.name}
+          />
 
           <div className="absolute left-2 top-2 flex items-center gap-[2px] rounded-full bg-primary bg-white px-2 py-[2px]">
             <StarIcon size={12} className="fill-yellow-400 text-yellow-400" />
