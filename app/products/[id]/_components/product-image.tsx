@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/app/_components/ui/button";
+import { Product } from "@prisma/client";
 import { ChevronLeftIcon } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
